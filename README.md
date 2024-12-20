@@ -1,5 +1,5 @@
-# create resource group
-az group create --name rg-bicep-webapp-013 --location westeurope
+# create vnet name Vnet1
+az group create --name net1 --location East US
 
 # preview changes
 az deployment group what-if --resource-group user-qbfqmgsngqxr \
